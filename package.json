@@ -1,0 +1,16 @@
+{
+  "name": "building-control-scraper",
+  "version": "1.0.0",
+  "description": "Small Node.js scrapers for building control pages (Playwright + Got).",
+  "main": "task1.js",
+  "scripts": {
+    "task1": "node task1.js",
+    "task2": "node task2.js"
+  },
+  "author": "Elena Gusarevich",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.49.0",
+    "got": "^14.0.0"
+  }
+}
