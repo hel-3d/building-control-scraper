@@ -1,22 +1,30 @@
-# Node modules
+# Node
 node_modules/
-
-# Output / scraped data
-result.json
-*.log
-
-# Environment / secrets
-.env
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE files
-.vscode/
-.vs/
-
-# Cache
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# Env
+.env
+.env.*.local
+
+# Output / results
+result.json
+result_*.json
+*.txt
+
+# System
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+.vs/
+
+# OS swap files
+*.swp

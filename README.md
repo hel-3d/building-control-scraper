@@ -1,32 +1,23 @@
-# Building Control Scraper Test
+# Building Control Scraper (Test Task)
 
-This repository contains two small Node.js scrapers for the coding test:
-
-- **Task 1** – Scrape a Scottish building warrant page using **Playwright**
-- **Task 2** – Scrape an English/Welsh building control page using **Got**
-
-The focus is on code quality, data completeness, error handling and documentation.
+This repository contains two Node.js scrapers written as part of a technical test.  
+Both tasks are implemented using modern tooling: **Playwright**, **Got v14**, **Cheerio**, and **Tough-Cookie**.
 
 ---
 
-## Tech stack
+## 📌 Task 1 — Playwright Scraper  
+**Goal:**  
+Open the planning page via Playwright, extract as much clean structured data as possible, and save it as JSON.
 
-- Node.js (tested with v20)
-- [Playwright](https://www.npmjs.com/package/playwright) for Task 1
-- [Got](https://www.npmjs.com/package/got) for Task 2
+**Technologies:**  
+- Playwright  
+- Cheerio  
+- Node.js 22  
 
----
+**Output file:**  
+`result_task1.json`
 
-## How to run locally
+Run:
 
 ```bash
-git clone <this-repo-url>
-cd building-control-scraper
-
-npm install
-
-# Task 1 (Playwright)
-npm run task1   # or: node task1.js
-
-# Task 2 (Got) – once implemented
-npm run task2   # or: node task2.js
+npm run task1
