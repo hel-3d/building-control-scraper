@@ -85,7 +85,7 @@ npm run task2
 Node.js 20+ is recommended (tests were run using Node.js 22).
 
 📂 Project structure
-.
+```
 ├── task1.js
 ├── task2.js
 ├── package.json
@@ -93,7 +93,7 @@ Node.js 20+ is recommended (tests were run using Node.js 22).
 ├── README.md
 ├── result.json            # output of task 1
 └── result_task2.json      # output of task 2
-
+```
 📄 License
 
 MIT — this repository is for demonstration and technical review purposes.
